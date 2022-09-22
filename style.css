@@ -75,3 +75,12 @@ html {
   max-width: 100%;
   margin-right: 10px;
 }
+
+.modelfinder {
+  position: relative;
+  top: 50px;
+  left: -100px; 
+  width: auto;
+  height: 100%;
+
+}

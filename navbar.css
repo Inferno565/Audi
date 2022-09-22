@@ -5,8 +5,9 @@
   background-color: #ffffff;
   overflow: auto;
   margin-left: 0px;
-  margin-top: 9px;
+  margin-top: 0px;
   margin-bottom: 10px;
+  padding: 20px;
   font-family: 'Audi Type', sans-serif;
 }
 

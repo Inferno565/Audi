@@ -78,9 +78,58 @@ html {
 
 .modelfinder {
   position: relative;
-  top: 50px;
-  left: -100px; 
-  width: auto;
-  height: 100%;
+  top: 190px;
+  left: 0px; 
+}
+.modelfinder img{
+  height: 50%;
+  width: 50%;
+}
 
+/* .modeltitle{
+  position:absolute;
+   top: 150px;
+  left: 50px; 
+  
+} */
+.modelspane{
+  background-color:white;
+  height: 350px;
+  width: 400px;
+   /* padding-top: 150px ; */
+  padding-left: 20px;
+  /* padding-right: 30px;
+  padding-bottom: 20px;  */ 
+  position:absolute;
+  left: 490px;
+  top:300px;
+  /* padding: 70px; */
+  
+}
+
+.paneimg{
+  height: 50%;
+  width: 100%;
+  position: relative;
+  top: 40px;
+  left: 00px;
+}
+.paneimg button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.modelspaner{
+  background-color:white;
+  height: 350px;
+  width: 400px;
+   /* padding-top: 150px ; */
+  padding-left: 20px;
+  /* padding-right: 30px;
+  padding-bottom: 20px;  */ 
+  position:absolute;
+  left: 930px;
+  top:300px;
+  /* padding: 70px; */
+  
 }

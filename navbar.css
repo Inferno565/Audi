@@ -1,0 +1,27 @@
+@import url('http://fonts.cdnfonts.com/css/audi-type-2');
+
+.navbar {
+  /* width: 100%; */
+  background-color: #ffffff;
+  overflow: auto;
+  margin-left: 80px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  font-family: 'Audi Type', sans-serif;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: gray;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.links {
+  margin-top: 4px;
+}
+
+.navbar a:hover {
+  color: black;
+}

@@ -1,0 +1,68 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('http://fonts.cdnfonts.com/css/audi-type-2');
+@import url(audi-core-ci-reset-and-basic.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body,
+html {
+    font-family: 'Audi Type', sans-serif;
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.hero-image {
+    background-image: url("./audiQ3.jpg");
+    height: 95%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    padding: 21px 48px;
+    font-size: 18px;
+}
+
+.hero-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.models {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+.models img {
+    flex: 0 0 auto;
+    width: auto;
+    height: 100px;
+    max-width: 100%;
+    margin-right: 10px;
+}

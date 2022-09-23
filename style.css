@@ -78,7 +78,7 @@ html {
 
 .modelfinder {
   position: relative;
-  top: 190px;
+  top: 70px;
   left: 0px; 
 }
 .modelfinder img{
@@ -128,8 +128,22 @@ html {
   /* padding-right: 30px;
   padding-bottom: 20px;  */ 
   position:absolute;
-  left: 930px;
+  left: 920px;
   top:300px;
   /* padding: 70px; */
-  
+}
+
+.modelspanel{
+  background-color:white;
+  height: 350px;
+  width: 400px;
+   /* padding-top: 150px ; */
+  padding-left: 20px;
+  /* padding-right: 30px;
+  padding-bottom: 20px;  */ 
+  position:absolute;
+  left: 60px;
+  top:665px;
+  /* padding: 70px; */
+
 }

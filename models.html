@@ -8,6 +8,23 @@
     <title>Audi |Models</title>
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function be() {
+            document.getElementById("but1").style.backgroundColor = "black"
+            document.getElementById("but1").style.color = "white"
+            document.getElementById("but1").style.transition = "0.5s"
+            document.getElementById("but1").style.boxShadow = "0px 0px"
+            document.getElementById("but1").style.cursor = "pointer"
+        }
+
+        function oute() {
+            document.getElementById("but1").style.backgroundColor = "white"
+            document.getElementById("but1").style.color = "black"
+            document.getElementById("but1").style.transition = "0.5s"
+            document.getElementById("but1").style.boxShadow = "5px 5px gray"
+        }
+
+    </script>
 </head>
 
 <body>
@@ -30,6 +47,8 @@
     <div class="model-title" style="top:100px;">
         <h1 style="font-size: 45px;">View All Models </h1>
     </div>
+
+    <!-- filter bar -->
     <div class="filter"><text>Open Filter</text></div>
 
     <!-- etron gt -->
@@ -38,17 +57,17 @@
             <img src="Images/etrongt.svg" alt="etron" style="height: 270px; width:470px ;">
         </div>
         <div class="modelfinder">
-            <img src="Images/2022.png" alt="Pic" style="flex: 2;">
+            <img src="Images/2022.png" alt="Pic">
         </div>
         <div class="modelspane">
-            <h3>e-Tron GT quattro</h3>
+            <h3>e-Tron GT</h3>
             <img class="paneimg" src="Images/etronquat.png" alt="quattro">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <button class="button">Explore</button>
         </div>
         <div class="modelspaner">
             <h3>RS e-Tron GT</h3>
             <img class="paneimg" src="Images/rsetron.png" alt="quattro">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <button id="but1" class="button" onmouseover="be()" onmouseout="oute()">Explore</button>
         </div>
     </div>
     <!-- etron gt -->
@@ -58,7 +77,7 @@
         <!-- etron -->
         <div class="modeltitle">
             <img src="Images/etrone.svg" alt="etron" style="position:absolute; 
-            top:410px; width: 500px; height:350px;">
+                    top:410px; width: 500px; height:350px;">
         </div>
         <div class="modelfinder" style="top:860px; left: -40px;">
             <img src="Images/2022e.png" alt="etron">
@@ -67,25 +86,25 @@
         <div class="modelspane" style="top:770px;">
             <h3>e-Tron</h3>
             <img class="paneimg" src="Images/2022ees.png" alt="quattro">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <button class="button">Explore</button>
         </div>
         <!-- right -->
         <div class="modelspaner" style="top:770px ;">
             <h3>e-Tron Sportback</h3>
             <img class="paneimg" src="Images/2022es.png" alt="quattro">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <button class="button">Explore</button>
         </div>
         <!-- left -->
         <div class="modelspanel">
             <h3>e-Tron S</h3>
             <img class="paneimg" src="Images/etrons.png" alt="quattro">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <button class="button">Explore</button>
         </div>
         <!-- low center -->
         <div class="modelspane" style="top:1140px;">
             <h3>e-Tron S Sportback</h3>
             <img class="paneimg" src="Images/etron ss.png" alt="quattro">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <button class="button">Explore</button>
         </div>
     </div>
     <!-- etron -->
@@ -93,18 +112,22 @@
     <!-- a1 -->
     <div name="a1">
         <div class="modeltitle">
-            <img src="Images/a1.svg" alt="a1" style="position:absolute; 
-            top:1260px; width: 500px; height:350px;">
+            <img src="Images/a1.svg" alt="a1" style="position:relative; 
+                    top:1260px; width: 500px; height:350px;">
         </div>
-        <div class="modelfinder">
-            <img src="Images/a1.png" alt="a1" style="position:relative; top:1260px">
-        </div>
+
+        <!-- check this div -->
+        <!-- <div class="modelfinder">
+            <img src="Images/a1.png" alt="a1" style="position:relative;top:1280px;">
+        </div> -->
+            
         <div class="modelspane" style="top:1580px ;">
             <h3>A1 Sportback</h3>
             <img class="paneimg" src="Images/a1s.png" alt="quattro" style="left:-5px">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <button class="button">Explore</button>
         </div>
     </div>
+
 
     <!-- a3 -->
     <div name="a3">
@@ -117,10 +140,22 @@
         </div>
         <div class="modelspane" style=top:2020px ;">
             <h3>A3 Sportback</h3>
-            <img class="paneimg" src="Images/a1s.png" alt="quattro" style="left:-5px">
-            <button class="paneimg" style=" height: 50px; width: 380px;">Explore</button>
+            <img class="paneimg" src="Images/a3s.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
         </div>
-    </div>
+        <div class="modelspaner" style=top:2020px ;">
+            <h3>A3 Saloon</h3>
+            <img class="paneimg" src="Images/a3 sal.jfif" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <div class="modelspaner" style=top:2020px ;">
+            <h3>A3 Saloon</h3>
+            <img class="paneimg" src="Images/a3 sal.jfif" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        </div>
+
+
 
 
 </body>

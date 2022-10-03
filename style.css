@@ -167,6 +167,14 @@ html {
   top: 220px;
   background-color: black;
 }
+.filter img{
+  width: 20px;
+  height: 15px;
+  position: relative;
+  top: 10px;
+
+}
+
 .filter text {
   color: white;
   position: relative;

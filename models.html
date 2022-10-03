@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audi |Models</title>
+    <title>Audi India | Models</title>
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
 
     <script>
         function be() {
@@ -23,6 +24,13 @@
             document.getElementById("but1").style.color = "black"
             document.getElementById("but1").style.transition = "0.5s"
             document.getElementById("but1").style.boxShadow = "5px 5px gray"
+        }
+
+        function scrolltop(){
+            scrollTo(0,0)
+        }
+        function scrolled(){
+            document.getElementById("fil").style.position="sticky"
         }
 
     </script>
@@ -51,7 +59,10 @@
     </div>
 
     <!-- filter bar -->
-    <div class="filter"><text>Open Filter</text></div>
+    <div id="fil" class="filter">
+        <text>Open Filter</text>
+        <img class="filter" src="/Images/filter.jpg" alt="arrow" onmousewheel="scrolled()">
+    </div>
 
     <!-- etron gt -->
     <div name="etron gt">
@@ -162,7 +173,7 @@
         <!-- lower mid -->
         <div class="modelspane" style=top:2390px ;">
             <h3>S3 Sportback</h3>
-            <img class="paneimg" src="Images/s3sp.png"  alt="quattro" style="left:-5px">
+            <img class="paneimg" src="Images/s3sp.png" alt="quattro" style="left:-5px">
             <button class="button">Explore</button>
         </div>
         <!-- lower right -->
@@ -178,9 +189,276 @@
             <button class="button">Explore</button>
         </div>
     </div>
-    <!-- a3 -->
 
+    <!-- a4 -->
+    <div name="a4">
+        <div class="modeltitle">
+            <img src="Images/A4.svg" alt="a4" style="position:absolute; 
+            top:2800px; width: 500px; height:350px;">
+        </div>
+        <div class="modelfinder" style="top:3250px">
+            <img src="Images/A4.png" alt="a4">
+        </div>
+        <!-- Center -->
+        <div class="modelspane" style=top:3180px ;">
+            <h3>A4 Saloon</h3>
+            <img class="paneimg" src="Images/a4sal.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- right -->
+        <div class="modelspaner" style=top:3180px ;">
+            <h3>A4 Avant</h3>
+            <img class="paneimg" src="Images/a4av.png" alt="quattro" style="left:-5px;">
+            <button class="button">Explore</button>
+        </div>
+        <!-- lower left -->
+        <div class="modelspanel" style=top:3550px ;">
+            <h3>S4 Saloon</h3>
+            <img class="paneimg" src="Images/s4sal.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- lower mid -->
+        <div class="modelspane" style=top:3550px ;">
+            <h3>S4 Avant</h3>
+            <img class="paneimg" src="Images/s4av.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- lower right -->
+        <div class="modelspaner" style=top:3550px ;">
+            <h3>RS 4 Avant</h3>
+            <img class="paneimg" src="Images/rs4av.png" alt="quattro" style="left:-5px;">
+            <button class="button">Explore</button>
+        </div>
+    </div>
+    <!-- a4 -->
 
+    <!-- a5 -->
+    <div name="a5">
+        <div class="modeltitle">
+            <img src="Images/a5.svg" alt="a4" style="position:absolute; 
+                    top:3630px; width: 500px; height:350px;">
+        </div>
+        <div class="modelfinder" style="top:4060px">
+            <img src="Images/s5s.png" alt="a4">
+        </div>
+        <!-- Center -->
+        <div class="modelspane" style=top:3990px ;">
+            <h3>A5 Coupe`</h3>
+            <img class="paneimg" src="Images/a5.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- right -->
+        <div class="modelspaner" style=top:3990px ;">
+            <h3>S5 Coupe`</h3>
+            <img class="paneimg" src="Images/s5.png" alt="quattro" style="left:-5px;">
+            <button class="button">Explore</button>
+        </div>
+        <!-- lower left -->
+        <div class="modelspanel" style=top:4360px ;">
+            <h3>RS 5 </h3>
+            <img class="paneimg" src="Images/rs5.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+    </div>
+    <!-- a5 -->
+
+    <!-- a6 -->
+    <div name="a6">
+        <div class="modeltitle">
+            <img src="Images/a6.svg" alt="a4" style="position:absolute; 
+                        top:4430px; width: 500px; height:350px;">
+        </div>
+        <div class="modelfinder" style="top:4850px">
+            <img src="Images/a6.png" alt="a4">
+        </div>
+        <!-- Center -->
+        <div class="modelspane" style=top:4810px ;">
+            <h3>A6 Saloon</h3>
+            <img class="paneimg" src="Images/a6s.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- right -->
+        <div class="modelspaner" style=top:4810px ;">
+            <h3>S6 Saloon</h3>
+            <img class="paneimg" src="Images/s6.png" alt="quattro" style="left:-5px;">
+            <button class="button">Explore</button>
+        </div>
+        <!-- lower left -->
+        <div class="modelspanel" style=top:5180px ;">
+            <h3>RS 6 Sportback</h3>
+            <img class="paneimg" src="Images/rs6.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+    </div>
+    <!-- a6 -->
+
+    <!-- a7 -->
+    <div name="a7">
+        <div class="modeltitle">
+            <img src="Images/a7.svg" alt="a4" style="position:absolute; 
+             top:5230px; width: 500px; height:350px;">
+        </div>
+        <div class="modelfinder" style="top:5670px">
+            <img src="Images/a7.png" alt="a4">
+        </div>
+        <!-- Center -->
+        <div class="modelspane" style=top:5610px ;">
+            <h3>A7 Sportback</h3>
+            <img class="paneimg" src="Images/s7sp.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- right -->
+        <div class="modelspaner" style=top:5610px ;">
+            <h3>S6 Sportback</h3>
+            <img class="paneimg" src="Images/s7s7.png" alt="quattro" style="left:-5px;">
+            <button class="button">Explore</button>
+        </div>
+        <!-- lower left -->
+        <div class="modelspanel" style=top:5970px ;">
+            <h3>RS 7 Sportback</h3>
+            <img class="paneimg" src="Images/rs7.png" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+    </div>
+    <!-- a7 -->
+
+    <!-- a8 -->
+    <div name="a8">
+        <div class="modeltitle">
+            <img src="Images/a8.svg" alt="a4" style="position:absolute; 
+                 top:6040px; width: 500px; height:350px;">
+        </div>
+        <div class="modelfinder" style="top:6480px">
+            <img src="Images/a8.webp" alt="a4">
+        </div>
+        <!-- Center -->
+        <div class="modelspane" style=top:6410px ;">
+            <h3>A8 </h3>
+            <img class="paneimg" src="Images/a8s.webp" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- right -->
+        <div class="modelspaner" style=top:6410px ;">
+            <h3>A8 L</h3>
+            <img class="paneimg" src="Images/a8l.webp" alt="quattro" style="left:-5px;">
+            <button class="button">Explore</button>
+        </div>
+        <!-- lower left -->
+        <div class="modelspanel" style=top:6770px ;">
+            <h3>S8</h3>
+            <img class="paneimg" src="Images/s8.webp" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+    </div>
+    <!-- a8 -->
+
+    <!-- q7 -->
+    <div name="q7">
+        <div class="modeltitle">
+            <img src="Images/q7.svg" alt="a4" style="position:absolute; 
+                         top:6800px; width: 500px; height:350px;">
+        </div>
+        <div class="modelfinder" style="top:7300px">
+            <img src="Images/q7.png" alt="a4">
+        </div>
+        <!-- Center -->
+        <div class="modelspane" style=top:7200px ;">
+            <h3>Q7 </h3>
+            <img class="paneimg" src="Images/q7s.webp" alt="quattro" style="left:-5px">
+            <button class="button">Explore</button>
+        </div>
+        <!-- right -->
+        <div class="modelspaner" style=top:7200px ;">
+            <h3>SQ7</h3>
+            <img class="paneimg" src="Images/sq7.webp" alt="quattro" style="left:-5px;">
+            <button class="button">Explore</button>
+        </div>
+        <!-- q7 -->
+
+        <!-- R8 -->
+        <div name="R8">
+            <div class="modeltitle">
+                <img src="Images/r8.svg" alt="a4" style="position:absolute; 
+                             top:7280px; width: 500px; height:350px;">
+            </div>
+            <div class="modelfinder" style="top:7720px">
+                <img src="Images/R8.webp" alt="a4">
+            </div>
+            <!-- Center -->
+            <div class="modelspane" style=top:7620px ;">
+                <h3>R8 Coupe`</h3>
+                <img class="paneimg" src="Images/r8.png" alt="quattro" style="left:-5px">
+                <button class="button">Explore</button>
+            </div>
+            <!-- right -->
+            <div class="modelspaner" style=top:7620px ;">
+                <h3>R8 Spyder</h3>
+                <img class="paneimg" src="Images/r8spyder.png" alt="quattro" style="left:-5px;">
+                <button class="button">Explore</button>
+            </div>
+            <!-- R8 -->
+
+            <!-- footer -->
+            <div class="footer-top">
+
+            </div>
+            <div class="footer">
+                <text style="position:relative; left:1180px ; color:white;">
+                    <b>Back to top</b></text>
+                    <img class="arrow" src="/Images/up.jpg" alt="arrow" onclick="scrolltop()">
+
+                <div>
+                    <ul style="font-size:20px;left: 50px;"><b>Connect</b></ul>
+                    <ul>Contact Us</ul>
+                    <ul>Request A Call Back</ul>
+                    <ul>myAudi Connect</ul>
+                    <ul>Book a test drive</ul>
+                    <ul>Locate a centre</ul>
+                </div>
+
+                <div style="position:absolute;left:410px;top:70px">
+                    <ul style="font-size:20px ;"><b>Innovation</b></ul>
+                    <ul>Future Is An Attitude</ul>
+                    <ul>Audi Sport</ul>
+                    <ul>Audi quattro</ul>
+                    <!-- can be used for menus -->
+                    <ul>WLTP</ul>
+                    <!-- can be used for menus -->
+                </div>
+
+                <div style="position:absolute;left:780px;top:70px">
+                    <ul style="font-size:20px ;"><b>Support</b></ul>
+                    <ul>Career</ul>
+                    <ul>Press</ul>
+                    <ul>Book A Service Online</ul>
+                    <ul>Newsletter</ul>
+                </div>
+
+                <div class="icons">
+
+                    <a href="https://www.facebook.com/audiindia/" style="text-decoration: none; color: black;">
+                        <img src="/Images/fb.jpg" alt="" style="width: 50px;position:relative; top:5px">
+                    </a>
+
+                    <a href="https://twitter.com/audiofficial">
+                        <img src="/Images/tweet.jpg" alt="" style="width:45px;position:relative; top:3px;left:-4px;">
+                    </a>
+
+                    <a href="https://www.instagram.com/audiofficial/?hl=en">
+                        <img src="/Images/insta.jpg" alt="" style="width: 40px;position:relative; top:0px">
+                    </a>
+                    <a href="https://www.youtube.com/c/audi/videos">
+                        <img src="/Images/yt.jpg" alt="" style="width: 55px;height: 55px; position:relative; top:6px">
+                    </a>
+                    <a href="https://www.pinterest.com/audiofficial/">
+                        <img src="/Images/pin.jpg" alt=""
+                            style="width: 60px;height: 60px;position:relative; top:9px; left:-10px ;">
+                    </a>
+                </div>
+
+                <hr style="position:relative; top:35px ; width:95%">
+                <text style="color:white;position:relative; top:35px; left: 28px;">© 2021 © AUDI AG.</text>
+            </div>
 
 
 

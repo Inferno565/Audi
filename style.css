@@ -228,7 +228,7 @@ html {
   top: 20px;
   height: 50px;
   width: 380px;
-  box-shadow: 5px 5px gray;
+  box-shadow: 5px 5px 5px gray;
 }
 
 .button:hover {

@@ -10,7 +10,7 @@ html {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
-    /* background-color: whitesmoke; */
+    background-color: rgba(170, 174, 175, 0.26);
 }
 
 .avs {
@@ -241,7 +241,7 @@ html {
     height: 80%;
     padding-block-start: 500px;
     padding-block-end: 200px;
-    background-image: url("/Images/E-tronHub-3840X4000.jpg");
+    background-image:url("/Images/E-tronHub-3840X4000.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

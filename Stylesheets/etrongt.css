@@ -1,0 +1,85 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("http://fonts.cdnfonts.com/css/audi-type-2");
+@import url(audi-core-ci-reset-and-basic.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: rgba(170, 174, 175, 0.26);
+}
+
+.main-image {
+  background-image: url("/Images/1920x1080-audi-e-tron-gt-stage-desktop.webp");
+  height: 100%;
+  width: 100%;
+  /* top: -30px; */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.main-text{
+    position: absolute;
+    top: 480px;
+    left: 60px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+#b1 {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 40px;
+    margin-top: 30px;
+    /* padding: 21px 48px; */
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    font-family: "Montserrat", sans-serif;
+    position:relative ;
+    top: -55px;
+    left:-40px;
+}
+
+#b1:hover {
+    background-color: #555;
+    color: white;
+}
+
+#b2 {
+    border: solid 1px #000;
+    outline: 0;
+    color: black;
+    background-color:transparent;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 1px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 7px;
+    padding-right: 25px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    position:absolute;
+    top:70px;
+    left:190px;
+}
+
+#b2:hover {
+    color: #777;
+}
+
+
+

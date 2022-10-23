@@ -14,7 +14,7 @@ html {
 }
 
 .main-image {
-  background-image: url("/Images/1920x1080-audi-e-tron-gt-stage-desktop.webp");
+  background-image: url("../Images/1920x1080-audi-e-tron-gt-stage-desktop.webp");
   height: 100%;
   width: 100%;
   /* top: -30px; */
@@ -84,7 +84,7 @@ html {
 
 .mov-image {
   /* opacity: 0; */
-  background-image: url("/Images/etronGT_Animation_set03_211.webp");
+  background-image: url("../Images/etronGT_Animation_set03_211.webp");
   height: 100%;
   width: 100%;
   top: 900px;

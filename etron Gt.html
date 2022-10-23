@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,24 @@
     <link rel="stylesheet" href="Stylesheets/footer.css">
     <link rel="stylesheet" href="Stylesheets/navbar.css">
     <link rel="stylesheet" href="Stylesheets/etrongt.css">
+    <script>
+        function focuse() {
+            a = window.pageYOffset;
+            b = document.getElementById("d1").style.opacity
+            if (a > 800) {
+                document.getElementById("d1").style.opacity = "1"
+                // document.getElementById("d1").translate="(100,200)"
+                document.getElementById("d2").style.opacity = "1"
+            }
+            if (a < 810) {
+                // document.getElementById("d1").style.opacity = "1"
+                document.getElementById("d2").style.opacity = "0"
+            }
+        }
+    </script>
 </head>
-<body>
+
+<body onscroll="focuse()">
     <!-- Navbar -->
     <div class="navbar">
         <div>
@@ -34,6 +51,19 @@
             <button id="b2">Book a Test Drive</button>
         </div>
     </div>
+    <div id="d1" class="mov-text">
+        <h1 style="font-size: 45px;">Pure sportiness and progressive
+            luxury</h1>
+
+    </div>
+    <div id="d2" class="mov-image">
+    </div>
+
+
+
+
+
+
 
 
 
@@ -44,7 +74,7 @@
             <b>Back to top</b>
         </text>
         <a href="#" class="fa fa-arrow-up arrow" onclick="scrolltop()"></a>
-    
+
         <div>
             <ul style="font-size:20px;left: 50px;"><b>Connect</b></ul>
             <ul>Contact Us</ul>
@@ -53,7 +83,7 @@
             <ul>Book a test drive</ul>
             <ul>Locate a centre</ul>
         </div>
-    
+
         <div style="position:absolute;left:410px;top:70px">
             <ul style="font-size:20px ;"><b>Innovation</b></ul>
             <ul>Future Is An Attitude</ul>
@@ -63,7 +93,7 @@
             <ul>WLTP</ul>
             <!-- can be used for menus -->
         </div>
-    
+
         <div style="position:absolute;left:780px;top:70px">
             <ul style="font-size:20px ;"><b>Support</b></ul>
             <ul>Career</ul>
@@ -71,19 +101,20 @@
             <ul>Book A Service Online</ul>
             <ul>Newsletter</ul>
         </div>
-    
+
         <div class="icons">
             <a href="https://www.facebook.com/audiindia/" target="_blank" class="fa fa-facebook"></a>
             <a href="https://twitter.com/audiofficial" target="_blank" class="fa fa-twitter"></a>
             <a href="https://www.instagram.com/audiofficial/?hl=en" target="_blank" class="fa fa-instagram"></a>
             <a href="https://www.youtube.com/c/audi/videos" target="_blank" class="fa fa-youtube"></a>
             <a href="https://www.pinterest.com/audiofficial/" target="_blank" class="fa fa-pinterest"></a>
-    
+
         </div>
         <hr style="position:relative; top:35px ; width:95%">
         <text style="color:white;position:relative; top:35px; left: 28px;">© 2021 © AUDI AG.</text>
     </div>
 
-    
+
 </body>
+
 </html>

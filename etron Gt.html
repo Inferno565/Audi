@@ -9,24 +9,11 @@
     <link rel="stylesheet" href="Stylesheets/footer.css">
     <link rel="stylesheet" href="Stylesheets/navbar.css">
     <link rel="stylesheet" href="Stylesheets/etrongt.css">
-    <script>
-        function focuse() {
-            a = window.pageYOffset;
-            b = document.getElementById("d1").style.opacity
-            if (a > 800) {
-                document.getElementById("d1").style.opacity = "1"
-                // document.getElementById("d1").translate="(100,200)"
-                document.getElementById("d2").style.opacity = "1"
-            }
-            if (a < 810) {
-                // document.getElementById("d1").style.opacity = "1"
-                document.getElementById("d2").style.opacity = "0"
-            }
-        }
+    <script src="/Javascript/etron events.js">
     </script>
 </head>
 
-<body onscroll="focuse()">
+<body onscroll="scrolle()">
     <!-- Navbar -->
     <div class="navbar">
         <div>
@@ -54,11 +41,25 @@
     <div id="d1" class="mov-text">
         <h1 style="font-size: 45px;">Pure sportiness and progressive
             luxury</h1>
-
     </div>
     <div id="d2" class="mov-image">
     </div>
 
+
+    <div class="cen">
+        <div>
+            <img src="/Images/730x730-audi-e-tron-gt-design.webp" alt="">
+        </div>
+
+        <div class="cen-text">
+            <h1>Audi e-tron GT quattro</h1>
+            <button>360 Experience</button>
+        </div>
+    </div>
+
+    <div class="">
+
+    </div>
 
 
 

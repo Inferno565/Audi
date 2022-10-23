@@ -14,7 +14,7 @@ html {
 }
 
 .main-image {
-  background-image: url("../Images/1920x1080-audi-e-tron-gt-stage-desktop.webp");
+  background-image: url("/Images/1920x1080-audi-e-tron-gt-stage-desktop.webp");
   height: 100%;
   width: 100%;
   /* top: -30px; */
@@ -84,13 +84,13 @@ html {
 
 .mov-image {
   /* opacity: 0; */
-  background-image: url("../Images/etronGT_Animation_set03_211.webp");
+  background-image: url("/Images/etronGT_Animation_set03_211.webp");
   height: 100%;
   width: 100%;
   top: 900px;
   background-position: center;
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
   position: relative;
   z-index: 2;
   position: absolute;
@@ -98,7 +98,6 @@ html {
   display: flex;
   padding-block-start: 100px;
   padding-block-end: 200px;
-
 }
 
 .mov-text {
@@ -124,4 +123,39 @@ html {
   background-color: white;
   height: 80%;
   width: 100%;
+}
+
+.cen {
+  position: relative;
+  top: 1300px;
+  padding: 50px;
+  /* width: 40%; */
+  float: left;
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: center;
+}
+
+.cen-text {
+  position: relative;
+  top:300px;
+  left: 75px;
+  /* padding-right: 100px; */
+  font-family: "Montserrat", sans-serif;
+}
+.cen-text button {
+    color: #fff;
+    background-color: #000;
+    margin-left: 75px;
+    padding: 14px 36px;
+    font-size: 15px;
+    cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.cen-text button:hover {
+    color: #888;
+    border-color: #888;
+    transition: 0.3s;
 }

@@ -49,25 +49,25 @@ function scrolle() {
     }
 
     if (a > 1110) {
-        document.getElementById("d2").style.backgroundImage = "url('../Images/5.png')"
+        document.getElementById("d2").style.backgroundImage = "url('./Images/5.png')"
 
 
     }
 
     if (a > 1130) {
-        document.getElementById("d2").style.backgroundImage = "url('../Images/6.png')"
+        document.getElementById("d2").style.backgroundImage = "url('./Images/6.png')"
 
 
     }
 
     if (a > 1150) {
-        document.getElementById("d2").style.backgroundImage = "url('../Images/7.png')"
+        document.getElementById("d2").style.backgroundImage = "url('./Images/7.png')"
     }
     if (a > 1160) {
-        document.getElementById("d2").style.backgroundImage = "url('../Images/8.png')"
+        document.getElementById("d2").style.backgroundImage = "url('./Images/8.png')"
     }
     if (a > 1190) {
-        document.getElementById("d2").style.backgroundImage = "url('../Images/9.png')"
+        document.getElementById("d2").style.backgroundImage = "url('./Images/9.png')"
     }
 
 
@@ -75,6 +75,6 @@ function scrolle() {
     if (a < 1000) {
         document.getElementById("d1").style.opacity = "1"
         document.getElementById("d2").style.opacity = "0"
-        document.getElementById("d2").style.backgroundImage = "url('../Images/1.png')"
+        document.getElementById("d2").style.backgroundImage = "url('./Images/1.png')"
     }
 }

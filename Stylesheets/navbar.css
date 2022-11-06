@@ -28,3 +28,13 @@
 .navbar a:hover {
   color: black;
 }
+.login{
+  position:absolute;
+  left: 560px;
+  top: 13px;
+}
+
+.login img{
+  width: 20px;
+  height: 20px;
+}

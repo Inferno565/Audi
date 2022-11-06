@@ -1,106 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Welcome- Enter email address</title>
-    <script>	</script>
-    <style>
-        .mytext1 {
-            font-family: sans-serif;
-            font-size: small;
-            font-weight: bold;
-        }
-
-        .mytext2 {
-            font-family: sans-serif;
-            font-size: 38px;
-            font-weight: 8px;
-        }
-
-        .mytext3 {
-            font-family: RegularText, sans-serif;
-            font-size: 1rem;
-            color: #333;
-        }
-
-        input[type=text] {
-            width: 430px;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: none;
-            border-bottom: 1px solid rgb(0, 0, 0);
-        }
-
-        .block1 {
-            display: block;
-            width: 20%;
-            border: none;
-            background-color: black;
-            color: white;
-            padding: 14px 28px;
-            font-size: 16px;
-            cursor: pointer;
-            text-align: center;
-        }
-
-        .block1:hover {
-            background-color: dimgray;
-            color: white;
-        }
-
-        .block2 {
-            display: block;
-            width: 20%;
-            background-color: white;
-            color: black;
-            padding: 14px 28px;
-            font-size: 16px;
-            cursor: pointer;
-            text-align: center;
-        }
-
-        .block2:hover {
-            background-color: white;
-            color: dimgray;
-        }
-
-        .myimage {
-            /* background-image: url(/Images/audi_background_original.jpg); */
-            /* background-repeat: no-repeat; */
-            height: 20px;
-            width: 10px;
-            float: right;
-            position: relative;
-            left: -4000px;
-
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi India | Welcome</title>
+    <link rel="stylesheet" href="/Stylesheets/welcome.css">
 </head>
 
 <body>
-    <div class="myimage">
-        <img src="/Images/audi_background_original.jpg" alt="">
+    <div class="main-image">
     </div>
-    <div class="mytext1" style="position: relative; left: 95px; top: 150px; ">
-        Audi ID
-    </div>
-    <div class="mytext2" style="position: relative;left: 95px; top: 155px;">
-        Welcome
-    </div>
-    <div class="mytext3" style="position: relative;left: 95px; top: 200px;">
-        to myAudi-Portal.
-    </div>
-    <div style="position: relative;left: 95px; top: 300px;">
+    <div>
+        <text class="mytext1">Audi ID</text>
+        <text class="mytext2">Welcome</text>
+        <text class="mytext3">to myAudi-Portal</text>
+
         <form name="f1">
-            Email<br>
             <input type="text" name="email" id="tx1" />
+            <text class="mytext3" style="top: 310px; left: -295px; font-size: large;">E-mail</text>
         </form>
-    </div>  
-    <div style="position: relative;left: 95px; top: 400px;">
         <button class="block1">Next</button><br>
         <button class="block2">Create Account</button>
     </div>
-   
+
+    <div class="base">
+        <div class="end-list">
+            <ul style="color: white;">
+                Imprint &nbsp;&nbsp;
+                Terms of Use &nbsp; &nbsp; Data Privacy Policy &nbsp;&nbsp; Cookie Policy&nbsp;&nbsp;
+                3rdParty Licenses&nbsp;&nbsp;
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
 </body>
 
 </html>

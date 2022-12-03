@@ -78,34 +78,79 @@ function scrolle() {
         document.getElementById("d2").style.backgroundImage = "url('./Images/1.png')"
     }
 }
+//exteriror slides
+// let slideIndex = 1;
+// showSlides(slideIndex);
 
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+// function plusSlides(n) {
+//     showSlides(slideIndex += n);
+// }
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// }
 function initialSlide() {
-    showSlides(1);
+    showSlides(1, 0);
+    showSlides(0, 1);
 }
 
+// function showSlides(n) {
+//     let i;
+//     let slides = document.getElementsByClassName("img-carousel");
 
-function showSlides(n) {
+//     if (n > slides.length) {
+//         slideIndex = 1
+//     }
+//     if (n < 1) {
+//         slideIndex = slides.length
+//     }
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     slides[slideIndex - 1].style.display = "block";
+// }
+// //exteriror slides
+
+// //interior slides
+// function showSlides(n) {
+//     let i;
+//     let slides = document.getElementsByClassName("in-img-carousel");
+
+//     if (n > slides.length) {
+//         slideIndex = 1
+//     }
+//     if (n < 1) {
+//         slideIndex = slides.length
+//     }
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     slides[slideIndex - 1].style.display = "block";
+// }
+//interior slides
+
+
+let slideIndex = [1, 1];
+/* Class the members of each slideshow group with different CSS classes */
+let slideId = ["img-carousel", "in-img-carousel"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+    showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
     let i;
-    let slides = document.getElementsByClassName("img-carousel");
-    // let txt = document.getElementById("text-carousel");
-
-    if (n > slides.length) {
-        slideIndex = 1
+    let x = document.getElementsByClassName(slideId[no]);
+    if (n > x.length) {
+        slideIndex[no] = 1
     }
     if (n < 1) {
-        slideIndex = slides.length
+        slideIndex[no] = x.length
     }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    for (i = 0; i < x.length; i++) {
+        
+        x[i].style.display = "none";
     }
-    slides[slideIndex - 1].style.display = "block";
-}
+    x[slideIndex[no] - 1].style.display = "block";
+} 

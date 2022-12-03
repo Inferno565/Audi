@@ -172,12 +172,8 @@ html {
   position: absolute;
   left: 20px;
   margin-top: 250px;
-  background-color: white;
-}
-.nav button {
   background-color: black;
   color: white;
-  padding-left: 10px;
 }
 
 .arrows {
@@ -187,27 +183,19 @@ html {
   padding: 3px;
   /* color: white; */
 }
-.nav {
-  background-color: black;
-  color: white;
-}
+
 .nav :hover {
   cursor: pointer;
 }
 .nav a {
-  text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
   font-size: 20px;
   text-decoration: none;
 }
 
-
-/* .img-carousel {
-  transition: 2s;
-} */
 .img-carousel img {
-  float: left;
+  float: right;
   position: absolute;
   left: 659px;
   width: 690px;
@@ -232,3 +220,44 @@ html {
   display: none;
 }
 
+.pre-vid {
+  background-color: white;
+  position: relative;
+  margin-top: 2100px;
+  padding: 50px;
+}
+/* .vid{
+  position: relative;
+  margin-top: 2000px;
+} */
+.vid video {
+  height: 758px;
+}
+.in-ft-carousel {
+  background-color: black;
+  /* position: relative;
+  top: 2100px; */
+  height: 690px;
+}
+
+ .in-img-carousel img { 
+  float: left;
+  position: absolute;
+  left: 659px;
+  width: 690px;
+}
+.in-img-carousel video {
+  float: left;
+  position: absolute;
+  left: 659px;
+  width: 690px;
+}
+.in-txt-carousel {
+  color: white;
+  position: absolute;
+  margin-top: 340px;
+  font-family: "Montserrat", sans-serif;
+}
+.in-txt-carousel {
+  padding-left: 30px;
+}

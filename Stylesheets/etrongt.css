@@ -194,14 +194,16 @@ html {
 .nav :hover {
   cursor: pointer;
 }
-.nav text {
+.nav a {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
   font-size: 20px;
+  text-decoration: none;
 }
-.nav text :hover {
+.nav a :active {
   text-decoration: underline;
+  text-decoration-color: white;
 }
 
 /* .img-carousel {

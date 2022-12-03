@@ -88,6 +88,9 @@ function plusSlides(n) {
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
+function initialSlide() {
+    showSlides(1);
+}
 
 function showSlides(n) {
     let i;

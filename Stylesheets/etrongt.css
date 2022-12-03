@@ -201,12 +201,10 @@ html {
   font-size: 20px;
   text-decoration: none;
 }
-.nav a :active {
-  text-decoration: underline;
-  text-decoration-color: white;
-}
+
 
 /* .img-carousel {
+  transition: 2s;
 } */
 .img-carousel img {
   float: left;
@@ -233,3 +231,4 @@ html {
 .mySlides {
   display: none;
 }
+

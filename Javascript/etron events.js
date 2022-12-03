@@ -92,6 +92,7 @@ function initialSlide() {
     showSlides(1);
 }
 
+
 function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("img-carousel");

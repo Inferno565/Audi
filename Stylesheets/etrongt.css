@@ -200,10 +200,19 @@ html {
   padding: 8px 16px;
   font-size: 20px;
 }
-
-.img-carousel {
+.nav text :hover {
+  text-decoration: underline;
 }
+
+/* .img-carousel {
+} */
 .img-carousel img {
+  float: left;
+  position: absolute;
+  left: 659px;
+  width: 690px;
+}
+.img-carousel video {
   float: left;
   position: absolute;
   left: 659px;
@@ -213,8 +222,12 @@ html {
 .txt-carousel {
   color: white;
   position: absolute;
-  margin-top: 370px;
+  margin-top: 340px;
+  font-family: "Montserrat", sans-serif;
 }
-.txt-carousel h4 {
+.txt-carousel {
   padding-left: 30px;
+}
+.mySlides {
+  display: none;
 }

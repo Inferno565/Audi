@@ -20,7 +20,7 @@ Built with **HTML, CSS, and JavaScript** to practice UI design, animations, and 
 ##  Features
 -  **Frontend Only** – Pure **HTML, CSS, JS** (no frameworks).  
 -  **Basic Navigation** – Few connected pages with a simple *auth-like* flow (UI only).  
--  **e-tron Page Showcase** – Main highlight of the project:  
+-  **e-tron Page Showcase** – Main highlight of the project:  etrongt.html page
   - Pure **JavaScript DOM animation** of the **Audi e-tron car moving forward**.  
   - Achieved using **images + CSS transitions** (no libraries).  
 
